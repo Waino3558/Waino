@@ -24,8 +24,7 @@
     const isAndroid = /Android/i.test(ua);
     const isIOS = /iPhone|iPad|iPod/i.test(ua);
 
-    // In-app browsers (Instagram/TikTok/etc.) can be picky with auto-redirects,
-    // so we show buttons there instead of forcing a redirect.
+
     const isInAppBrowser = /FBAN|FBAV|Instagram|Line|TikTok|Twitter|Snapchat/i.test(ua);
 
     if (!isInAppBrowser) {
@@ -35,3 +34,4 @@
   </script>
 </body>
 </html>
+
